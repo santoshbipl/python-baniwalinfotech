@@ -1,0 +1,203 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>{% block title %} {% endblock %} - Baniwalinfotech</title>
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper@11.1.15/swiper-bundle.min.css" />
+<link rel="stylesheet" type="text/css"href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="{% static 'assets/css/header.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'assets/css/main.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'assets/css/bootstrap.min.css' %}">
+</head>
+
+<body>
+    <!-- Header Section -->
+    	<header id="masthead" class="site-header">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-2">
+		<div class="site-branding">
+			<a href="#" class="custom-logo-link" rel="home" aria-current="page">
+				<img width="195" height="59" src="{% static 'assets/images/baniwal.png' %}" class="custom-logo" alt="Baniwal Infotech Pvt Ltd" decoding="async">
+			</a>				
+						</div><!-- .site-branding -->
+	</div>
+	<div class="col-sm-10">
+		<nav id="site-navigation" class="main-navigation">
+			<div class="menu-main-menu-container">
+				<ul id="primary-menu" class="menu nav-menu">
+				<li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="services">Services</a></li>
+				<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="industries">Industries</a></li>
+				<li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="technologies">Technologies</a></li>
+				<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="company">Company</a></li>
+				<li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a href="work">Work</a></li>
+				<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="clients">Clients</a></li>
+				<li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a href="blog">Blog</a></li>
+				<li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="lets-talk">Lets’ TalK</a></li>
+</ul>
+</div>		</nav><!-- #site-navigation -->
+	</div>
+	</div>
+	</div>
+	</header>
+	
+	
+	
+    <!-- Main Content Section -->
+    <main>
+        {% block content %}
+		
+        <!-- Page specific content will be inserted here -->
+        {% endblock %}
+    </main>
+
+
+
+
+
+
+
+
+
+<!-- Footer Section -->
+
+
+<footer class="footer-section">
+	<div class="container">
+		<div class="row">
+		<div class="col-md-3">
+			<div class="widget height-fix">
+				<ul>
+					<li><a href="#" class="main-link">Home</a></li>
+					<li><a href="work" class="main-link">Work</a></li>
+					<li><a href="about-us" class="main-link">About Us</a></li>
+					<li><a href="services" class="main-link">Services</a></li>
+					<li><a href="technologies" class="main-link">Technologies</a></li>
+					<li><a href="contact-us" class="main-link">Contact</a></li>
+				</ul>
+
+				<a href="#" class="de-anchor">de /<span> en</span></a>
+			</div>
+		</div>
+
+
+
+		<div class="col-md-3">
+			<div class="widget mb-4">
+				<ul>
+					<li><a href="mailto:info@baniwalinfotech.com"><span>
+						<i class="fa-solid fa-star-of-life"></i>
+					</span> info@baniwalinfotech.com</a></li>
+				</ul>
+			</div>
+
+			<div class="widget">
+				<ul>
+					<li><a href="tel:+91-120-4223346"><span>
+						<i class="fa-solid fa-star-of-life"></i>
+					</span>+91-120-4223346</a></li>
+				</ul>
+			</div>
+
+
+			<div class="widget">
+				<h5 class="main-link">Careers</h5>
+				<h5 class="main-link">Get Updates</h5>
+				<ul class="mt-4">
+					<li><a href="#" class="d-flex gap-2">Privacy Policy<span class="mr-2"><i class="fa-solid fa-chevron-right"></i></span></a></li>
+					<li><a href="#" class="d-flex gap-2">Terms & Condition<span><i class="fa-solid fa-chevron-right"></i></span></a></li>
+				</ul>
+			</div>
+
+		</div>
+
+
+
+		<div class="col-md-3">
+			<div class="widget height-fix">
+				<h5 class="main-link mb-5">Connect</h5>
+				<ul>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Instagram</a></li>
+					<li><a href="#">Linkedin</a></li>
+					<li><a href="#">Behance</a></li>
+				</ul>
+
+			</div>
+		</div>	
+
+
+		<div class="col-md-3">
+			<div class="immersive">
+				<h2>Immersive<br>
+					Experiences
+				</h2>
+
+				<ul class="d-flex align-items-center footer-logo">
+					<li><img src="{% static 'assets/images/clutch.png' %}" class="img-fluid" alt="logo" /></li>
+					<li><img src="{% static 'assets/images/upwork.png' %}" class="img-fluid" alt="logo" /></li>
+					<li><img src="{% static 'assets/images/google.png' %}" class="img-fluid" alt="logo" /></li>
+				</ul>
+
+
+				<h5 class="baniwal-head">© 2015 - 2024 Baniwal Infotech Pvt. Ltd.</h5>
+			</div>
+			
+		</div>
+
+
+
+
+
+	</div>
+	</div>
+</footer>
+
+
+<script type="text/javascript" src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/js/all.min.js" integrity="sha512-1JkMy1LR9bTo3psH+H4SV5bO2dFylgOy+UJhMus1zF4VEFuZVu5lsi4I6iIndE4N9p01z1554ZDcvMSjMaqCBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+ <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+  const number = document.querySelectorAll('.number')
+  let intervel = 500;
+
+  number.forEach((num)=>{
+    let starValue = 0;
+    let endValue = parseInt(num.getAttribute('data-target'));
+    let duration = Math.floor(intervel / endValue);
+    let counter = setInterval(function(){
+      starValue += 1;
+      num.textContent = starValue;
+      if(starValue == endValue){
+        clearInterval(counter)
+      }
+    }, 50)
+
+    console.log(num)
+  })
+
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function () {
+        $(".slider").slick({
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          speed: 500,
+          autoplaySpeed: 5000,
+          infinite: true,
+          autoplay: true,
+          centerMode: true,
+          centerPadding: "0",
+        });
+      });
+</script>
+
+</body>
+</html>
