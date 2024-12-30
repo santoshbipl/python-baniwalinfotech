@@ -32,7 +32,8 @@ urlpatterns = [
     path('blog', views.blog, name='blog'),      
     path('about-us', views.about_us, name='about_us'),
     path('contact-us', views.contact_us, name='contact'),  
-    path('lets-talk', views.lets_talk, name='lets_talk'),  
+    path('lets-talk', views.lets_talk, name='lets_talk'),
+    path('success', views.success_view, name='success'),    
      
     
 ]
