@@ -79,7 +79,7 @@ def lets_talk(request):
                 subject=email_subject,
                 body=plain_message,  # Plain text message
                 from_email=email,  # From email address
-                to=[settings.CONTACT_EMAIL,email],  # To email address
+                to=[settings.CONTACT_EMAIL],  # To email address
             )
 
             # Attach the HTML version of the email
