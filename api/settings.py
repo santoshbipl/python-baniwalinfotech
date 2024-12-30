@@ -151,7 +151,7 @@ EMAIL_HOST = 'smtp.gmail.com'  # For example, using Gmail SMTP server
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'atlshopuk@gmail.com'
-EMAIL_HOST_PASSWORD = 'yofttpuvcjhoohfc'
+EMAIL_HOST_PASSWORD = ''
 
 CONTACT_EMAIL = 'atlshopuk@gmail.com'  # This is where the email will be sent
 
