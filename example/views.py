@@ -27,7 +27,8 @@ def company(request):
 
 
 def work(request):
-    return render(request, 'example/work.html')
+    context = {'name': 'John Doe', 'age': 30}
+    return render(request, 'example/work.html',context)
 
 
 def clients(request):
